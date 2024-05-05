@@ -4,4 +4,4 @@
 
 From April 22, 2024, to September 18, 2024, I will be studying Java at the iSpan. 
 After each class, I plan to record all the homework assignments and areas that I feel are not yet familiar to me. 
-Through continuous practice and by adding new functionalities, I aim to master this skill.
+Through continuous practice and Innovate on existing works", I aim to master this skill.
