@@ -6,8 +6,9 @@ public class Array_Study {
 
 
 	public static void main(String[] args) {
-		// TODO 自動產生的方法 Stub
 		Scanner sc = new Scanner(System.in);
+		/*
+		// TODO 自動產生的方法 Stub
 		System.out.println("[印出一個普通的99乘法表: ]");
 		for(int i=1;i<10;i++) {
 			for(int j=2;j<10;j++) {
@@ -59,6 +60,7 @@ public class Array_Study {
 			System.out.println();
 		}	
 		System.out.println();
+		*/
 		System.out.println("[實做出一個矩陣然後再做轉置矩陣: ]");		
 		System.out.print("請輸入陣列中的橫行(row)大小: ");
 		int row = sc.nextInt();
