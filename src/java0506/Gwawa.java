@@ -7,6 +7,7 @@ public class Gwawa extends Dog {
 	
 	//右鍵->程式碼->利用欄位產生建構子
 	public Gwawa(String name, int weight, int 眼睛凸出距離) {
+		//只有用super來呼叫dog方法
 		super(name, weight);
 		this.眼睛凸出距離 = 眼睛凸出距離;
 	}
@@ -19,6 +20,7 @@ public class Gwawa extends Dog {
 	}
 
 	public Gwawa(String name, int weight) {
+		//在這裡面呼叫Dog()
 		super(name, weight);
 		// TODO 自動產生的建構子 Stub
 	}
@@ -39,9 +41,26 @@ public class Gwawa extends Dog {
 	public void set眼睛凸出距離(int 眼睛凸出距離) {
 		this.眼睛凸出距離 = 眼睛凸出距離;
 	}
-	
+	/*
 	public void 叫() {
-		System.out.println("gwawa在叫");
+		System.out.println(name+"gwawa在叫");
 		super.叫();
 	}
+	*/
+	//你父類別的迴船值也要給
+	/*
+	@Override 
+	//告訴compiler 去覆寫檢查
+	public void 叫() {
+		//System.out.println(name+"gwawa在叫");
+		System.out.println(this.name+"在叫");
+		//super.叫();
+	}
+	*/
+	
+	public void test叫() {
+		叫();
+	}
+
+
 }

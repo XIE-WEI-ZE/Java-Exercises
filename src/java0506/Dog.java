@@ -4,7 +4,8 @@ package java0506;
 
 
 public class Dog {
-	private String name;
+	//private String name;
+	protected String name;
 	//String name;
 	
 	private  int weigth ;
@@ -48,7 +49,8 @@ public class Dog {
 	}
 	
 	public void 叫() {
-		System.out.println("gwawa爸爸在叫:");
+		System.out.println("狗在叫");
+		//reurn 5; 如果友值
 	}
 	
 	//預設建構子，沒有任何參數
@@ -64,6 +66,7 @@ public class Dog {
 		//this.setName("Banana");
 		//this.setWeigth(123);
 	}
+
 
 
 }
