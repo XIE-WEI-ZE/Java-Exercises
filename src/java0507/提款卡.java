@@ -10,5 +10,4 @@ public abstract class 提款卡 {
 	public void 設置餘額(int 計算後金額) {
 		this.餘額 = 計算後金額;
 	}
-	
 }
